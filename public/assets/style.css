@@ -1,0 +1,29 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:#f7f7fb;color:#222}
+a{color:#174ea6;text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:24px auto;padding:0 16px}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#fff;border-bottom:1px solid #e6e6ef;position:sticky;top:0;z-index:10}
+.brand a{font-weight:700;font-size:18px}
+.nav-links{display:flex;gap:12px;list-style:none;padding:0;margin:0;flex-wrap:wrap}
+.nav-links a{padding:6px 10px;border-radius:10px}
+.nav-links a:hover{background:#eef3ff;text-decoration:none}
+.auth .btn{margin-left:8px}
+h1{font-size:28px;margin:0 0 12px}h2{font-size:22px;margin-top:24px}
+.card{background:#fff;border:1px solid #e6e6ef;border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.grid{display:grid;gap:16px}
+.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.btn{display:inline-block;background:#174ea6;color:#fff;padding:8px 14px;border-radius:12px;border:1px solid #174ea6}
+.btn:hover{filter:brightness(1.05);text-decoration:none}
+.btn.outline{background:#fff;color:#174ea6}
+.btn.small{padding:6px 10px;font-size:14px}
+.input, select, textarea{width:100%;padding:10px;border-radius:10px;border:1px solid #d7d7e0;background:#fff}
+label{font-size:14px;color:#444;margin-bottom:6px;display:block}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border:1px solid #e6e6ef;padding:10px;text-align:left}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef3ff;border:1px solid #cfe0ff;font-size:12px}
+.footer{padding:24px 16px;text-align:center;color:#666}
+.notice{padding:10px;border-left:4px solid #174ea6;background:#eef3ff;border-radius:8px}
+.tag{display:inline-block;padding:2px 8px;border-radius:9999px;background:#f1f5f9;margin-right:6px;font-size:12px;border:1px solid #e5e7eb}
+.tags{margin-top:8px}
+@media(max-width:800px){.grid-3{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
